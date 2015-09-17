@@ -1,0 +1,42 @@
+How many dice would you like to roll? 6
+4.0
+6.0
+5.0
+6.0
+2.0
+2.0
+
+---
+
+How many dice would you like to roll? 2
+6.0
+3.0
+
+---
+
+How many dice would you like to roll? 10
+6.0
+3.0
+6.0
+1.0
+1.0
+3.0
+4.0
+2.0
+2.0
+2.0
+
+---
+
+How many dice would you like to roll? 3
+5.0
+3.0
+5.0
+
+---
+
+How many dice would you like to roll? 4
+2.0
+2.0
+6.0
+4.0

@@ -1,0 +1,27 @@
+package multiDiceRoller;
+import java.util.Scanner;
+public class multiDiceRoller {
+
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		double sixDiceOne = Math.floor((Math.random() * 6) + 1);
+		double sixDiceTwo = Math.floor((Math.random() * 6) + 1);
+		double sixSum = sixDiceOne + sixDiceTwo;
+		System.out.println("6-sided dice:");
+		System.out.println("Dice 1: " + sixDiceOne);
+		System.out.println("Dice 2: " + sixDiceTwo);
+		System.out.println("Total: " + sixSum);
+		
+		double eightDiceOne = Math.floor((Math.random() * 8) + 1);
+		double eightDiceTwo = Math.floor((Math.random() * 8) + 1);
+		double eightSum = sixDiceOne + sixDiceTwo;
+		System.out.println("\n8-sided dice:");
+		System.out.println("Dice 1: " + eightDiceOne);
+		System.out.println("Dice 2: " + eightDiceTwo);
+		System.out.println("Total: " + eightSum);
+
+	}
+
+}

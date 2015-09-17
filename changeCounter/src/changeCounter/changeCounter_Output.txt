@@ -1,0 +1,42 @@
+How many quarters do you have? 53
+Dimes? 2
+Nickels? 66
+Pennies? 34
+
+You have $17.09
+
+---
+
+How many quarters do you have? 5
+Dimes? 2
+Nickels? 7
+Pennies? 2
+
+You have $1.82
+
+---
+
+How many quarters do you have? 7392
+Dimes? 525
+Nickels? 2352
+Pennies? 1111111111111
+
+You have $11111113129.21
+
+---
+
+How many quarters do you have? 3
+Dimes? 6
+Nickels? 2
+Pennies? 6
+
+You have $1.51
+
+---
+
+How many quarters do you have? 74
+Dimes? 25
+Nickels? 7
+Pennies? 27
+
+You have $21.62

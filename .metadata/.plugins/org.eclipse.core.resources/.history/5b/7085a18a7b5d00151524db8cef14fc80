@@ -1,0 +1,35 @@
+package cashRegister;
+import java.util.Scanner;
+public class cashRegister {
+	
+	/*
+	 * Author: Mac Kiser
+	 * Date: 9/17/15
+	 * Program returns the amount of change the user should receive
+	 */
+
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("What is the total cost of the items? ");
+		double totalCost = keyboard.nextDouble();
+		
+		System.out.print("Amount paid? ");
+		double amountPaid = keyboard.nextDouble();
+		
+		double changeBack = amountPaid - totalCost;
+		
+		System.out.printf("\nChange: %.2f", changeBack);
+		
+		if (changeBack >= 20) {
+			double twentiesBack = changeBack % 20;
+			System.out.printf("\nTwenties: %.0f", twentiesBack);
+		}
+		
+		
+		
+
+	}
+
+}
