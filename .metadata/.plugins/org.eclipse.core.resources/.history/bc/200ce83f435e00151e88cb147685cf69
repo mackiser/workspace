@@ -1,0 +1,15 @@
+package snakeEyesExperiment;
+
+public class snakeEyesExperiment {
+
+	public static void main(String[] args) {
+		System.out.println("This program performs an experiment to see how many times you have to roll a dice.");
+		
+		for (int i=0; i<=100; i++) {
+			System.out.println("Roll 1: " + Math.floor((Math.random() * 6)) + 1);
+			System.out.println("Roll 2: " + Math.floor((Math.random() * 6)) + 1);
+		}
+
+	}
+
+}

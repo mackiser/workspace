@@ -2,6 +2,12 @@ package changeCounter;
 
 import java.util.Scanner;
 
+/*
+* Author: Mac Kiser
+* Date: 9/17/15
+* Program counts thr amount of coins the user has and outputs it as dollars
+*/
+
 public class changeCounter {
 
 	public static void main(String[] args) {
