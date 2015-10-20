@@ -1,0 +1,89 @@
+Input the number to be factored: 4043741503
+4043741503 = 58963 68581 
+Factoring time all numbers: 0.001954089 sec.
+
+4043741503 = 5896368581
+Factoring time all numbers up to square root: 0.002201467 sec.
+
+4043741503 = 5896368581
+Factoring time using just primes: 0.007111867 sec.
+
+4043741503 = 5896368581
+Factoring time using just primes up to square root: 0.005413956 sec.
+
+---
+
+Input the number to be factored: 88998054989
+88998054989 = 228577 389357 
+Factoring time all numbers: 0.006530579 sec.
+
+88998054989 = 228577389357
+Factoring time all numbers up to square root: 0.005375822 sec.
+
+88998054989 = 228577389357
+Factoring time using just primes: 0.070543254 sec.
+
+88998054989 = 228577389357
+Factoring time using just primes up to square root: 0.032266671 sec.
+
+---
+
+Input the number to be factored: 252576711581
+252576711581 = 428569 589349 
+Factoring time all numbers: 0.010504268 sec.
+
+252576711581 = 428569589349
+Factoring time all numbers up to square root: 0.007826134 sec.
+
+252576711581 = 428569589349
+Factoring time using just primes: 0.126728327 sec.
+
+252576711581 = 428569589349
+Factoring time using just primes up to square root: 0.07419281 sec.
+
+---
+
+Input the number to be factored: 1805737793759
+1805737793759 = 789367 2287577 
+Factoring time all numbers: 0.018807069 sec.
+
+1805737793759 = 7893672287577
+Factoring time all numbers up to square root: 0.011512357 sec.
+
+1805737793759 = 789367
+2287577
+Factoring time using just primes: 0.80227068 sec.
+
+1805737793759 = 7893672287577
+Factoring time using just primes up to square root: 0.171189844 sec.
+
+---
+
+Input the number to be factored: 14532158029297
+14532158029297 = 3389359 4287583 
+Factoring time all numbers: 0.03983125 sec.
+
+14532158029297 = 33893594287583
+Factoring time all numbers up to square root: 0.034562004 sec.
+
+14532158029297 = 33893594287583
+Factoring time using just primes: 1.993667631 sec.
+
+14532158029297 = 33893594287583
+Factoring time using just primes up to square root: 1.507091125 sec.
+
+---
+
+Input the number to be factored: 105779707462313
+105779707462313 = 9287573 11389381 
+Factoring time all numbers: 0.102001791 sec.
+
+105779707462313 = 928757311389381
+Factoring time all numbers up to square root: 0.092205923 sec.
+
+105779707462313 = 928757311389381
+Factoring time using just primes: 7.60876501 sec.
+
+105779707462313 = 928757311389381
+Factoring time using just primes up to square root: 6.970198796 sec.
+

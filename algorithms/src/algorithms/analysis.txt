@@ -1,0 +1,11 @@
+Algorithm Analysis
+
+1.  the "Factoring time all numbers up to square root" method outperformed the others most of the time
+
+2. the "Factoring time using just primes up to square root" method performed much better with numbers that had less digits
+
+3. The last two algorithms were much slower than the others, and I think this is caused by the method having ot run through the while loop a lot of times in order to return a value
+
+4. There seems to be a steady increase in the time it takes to factor as the digits in the number increase.
+
+5. they generally look linear to me
