@@ -1,0 +1,89 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class quiz {
+
+	/*-
+	 * Author: Mac Kiser
+	 * Date: 10/19/15
+	 * Program: 10 question quiz for elementary school level kids
+	 */
+	
+	public static int getRandom(int minimum, int maximum) {
+		int range = (maximum - minimum) + 1;
+		return (int)(Math.random() * range) + minimum;
+	}
+
+	public static void getAddition() {
+		int num1 = getRandom(1,99);
+		int num2 = getRandom(1,99);
+		int key = num1 + num2;
+		
+		System.out.printf("%5d\n", num1);
+		System.out.printf("+%4d\n", num2);
+		System.out.println("------");
+		System.out.printf("%5s\n\n", "?");
+	}
+	
+	public static void getSubtraction() {
+		int num1 = getRandom(1,99);
+		int num2 = getRandom(1,99);
+		
+		while (num2 > num1)
+			num2 = getRandom(1,99);
+		
+		int key = num1 - num2;
+		
+		System.out.printf("%5d\n", num1);
+		System.out.printf("-%4d\n", num2);
+		System.out.println("------");
+		System.out.printf("%5s\n\n", "?");
+	}
+	
+	public static void getMultiplication() {
+		int num1 = getRandom(1,20);
+		int num2 = getRandom(1,10);
+		int key = num1 * num2;
+		
+		System.out.printf("%5d\n", num1);
+		System.out.printf("x%4d\n", num2);
+		System.out.println("------");
+		System.out.printf("%5s\n\n", "?");
+	}
+	
+	public static void getDivision() {
+		int num1 = getRandom(1,99);
+		int num2 = getRandom(2,10);
+		
+		if (num1 % num2 == 0) {
+			int key = num1 / num2;
+			
+			System.out.printf("%4d\n", num1);
+			System.out.println(" ---- = ?");
+			System.out.printf("%4d\n", num2);
+		}
+		else {
+			num2 = getRandom(2,10);
+		}
+		
+		int key = num1 / num2;
+		
+		System.out.printf("%4d\n", num1);
+		System.out.println(" ---- = ?");
+		System.out.printf("%4d\n", num2);
+	}
+	
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+
+		// get operator for question
+		int operator = (int)Math.random() * 4;
+		
+		getAddition();
+		getSubtraction();
+		getMultiplication();
+		getDivision();
+
+	}
+
+}

@@ -1,0 +1,138 @@
+package algorithms;
+
+import java.util.Scanner;
+
+public class algorithms {
+
+	/*-
+	 * Author: Mac Kiser
+	 * Date: 10/20/15
+	 * Program: testing complex algorithms
+	 */
+
+	public static boolean isPrime(long n) {
+		if (n == 2)
+			return true;
+		else if (n % 2 == 0)
+			return false;
+
+		double sqrtn = Math.sqrt(n);
+		int i = 3;
+		while (i <= sqrtn) {
+			if (n % i == 0)
+				return false;
+			i += 2;
+		}
+		return true;
+	}
+
+	public static long nextPrime(long n) {
+		n++;
+
+		if (n % 2 == 0)
+			n++;
+
+		while (!isPrime(n)) {
+			n += 2;
+		}
+		return n;
+	}
+
+	public static long getLong(long low, long high, String message, String errorMessage, String rangeErrorMessage) {
+		Scanner kb = new Scanner(System.in);
+		boolean inputNeeded = true;
+		long value = 0;
+		while (inputNeeded) {
+			System.out.print(message);
+			try {
+				value = kb.nextLong();
+				if (value < low || value > high)
+					System.out.println(rangeErrorMessage);
+				else
+					inputNeeded = false;
+			} catch (Exception e) {
+				System.out.println(errorMessage);
+			}
+			String clearbuf = kb.nextLine();
+		}
+		return value;
+	}
+
+	public static void BruteForce(long n) {
+		long startTime;
+		long endTime;
+		long d = 2;
+		System.out.print(n + " = ");
+		startTime = System.nanoTime();
+		while (n > 1) {
+			if (n % d == 0) {
+				System.out.print(d + " ");
+				n = n / d;
+			} else
+				d++;
+		}
+		endTime = System.nanoTime();
+
+		System.out.println();
+		System.out.println("Factoring time all numbers: " + (endTime - startTime) / 1000000000.0 + "sec.");
+		System.out.println();
+	}
+
+	public static void BruteForceToSquareRoot(long n) {
+		double maxtest = Math.sqrt(n);
+		long d = 2;
+		System.out.print(n + " = ");
+		long startTime = System.nanoTime();
+
+		// Code Algorithm #2 Here
+
+		long endTime = System.nanoTime();
+		System.out.println();
+		System.out.println(
+				"Factoring time all numbers up to square root: " + (endTime - startTime) / 1000000000.0 + " sec.");
+		System.out.println();
+	}
+
+	public static void BruteForceJustPrimes(long n) {
+		long d = 2;
+		System.out.print(n + " = ");
+		long startTime = System.nanoTime();
+
+		// Code Algorithm #3 Here
+
+		long endTime = System.nanoTime();
+		System.out.println();
+		System.out.println("Factoring time using just primes: " + (endTime - startTime) / 1000000000.0 + " sec.");
+		System.out.println();
+	}
+
+	public static void BruteForceJustPrimesToSquareRoot(long n) {
+		long d = 2;
+		double maxtest = Math.sqrt(n);
+		System.out.print(n + " = ");
+		long startTime = System.nanoTime();
+
+		// Code Algorithm #4 Here
+
+		long endTime = System.nanoTime();
+		System.out.println();
+		System.out.println("Factoring time using just primes up to square root: " + (endTime - startTime) / 1000000000.0
+				+ " sec.");
+		System.out.println();
+	}
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+
+		long n = getLong(2, Long.MAX_VALUE, "Input the number to be factored: ",
+				"Input must be an integer between 2 and " + Long.MAX_VALUE + ".",
+				"Input is out of range. Input must be an integer between 2 and " + Long.MAX_VALUE + ".");
+
+		BruteForce(n);
+		BruteForceToSquareRoot(n);
+		BruteForceJustPrimes(n);
+		BruteForceJustPrimesToSquareRoot(n);
+
+	}
+
+}

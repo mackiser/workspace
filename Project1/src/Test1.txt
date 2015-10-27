@@ -1,0 +1,84 @@
+  46
+ ---- = ?
+   2
+
+Input your answer: 23
+Correct!
+
+    2
++  76
+------
+    ?
+
+Input your answer: 78
+Correct!
+
+   35
+-   7
+------
+    ?
+
+Input your answer: 28
+Correct!
+
+  87
+ ---- = ?
+   3
+
+Input your answer: 29
+Correct!
+
+    9
+x   3
+------
+    ?
+
+Input your answer: 27
+Correct!
+
+    1
+x   3
+------
+    ?
+
+Input your answer: 3
+Correct!
+
+   21
++  90
+------
+    ?
+
+Input your answer: 71
+Try again: 111
+Correct!
+
+    6
+x   4
+------
+    ?
+
+Input your answer: 25
+Try again: 26
+Incorrect.
+
+   24
+-  15
+------
+    ?
+
+Input your answer: 11
+Try again: 9
+Correct!
+
+   68
++  95
+------
+    ?
+
+Input your answer: 53
+Try again: 25
+Incorrect.
+
+You got 70 out of 100 possible points.
+You got a 70% on this quiz.

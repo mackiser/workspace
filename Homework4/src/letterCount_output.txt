@@ -1,0 +1,50 @@
+Enter a phrase: test one
+The E count is 2
+The N count is 1
+The O count is 1
+The S count is 1
+The T count is 2
+
+---
+
+Enter a phrase: test two
+The E count is 1
+The O count is 1
+The S count is 1
+The T count is 3
+The W count is 1
+
+---
+
+Enter a phrase: test threeeeeeeeeeeeeeeee
+The E count is 18
+The H count is 1
+The R count is 1
+The S count is 1
+The T count is 3
+
+---
+
+Enter a phrase: test four four four four
+The E count is 1
+The F count is 4
+The O count is 4
+The R count is 4
+The S count is 1
+The T count is 2
+The U count is 4
+
+---
+
+Enter a phrase: trials complete
+The A count is 1
+The C count is 1
+The E count is 2
+The I count is 1
+The L count is 2
+The M count is 1
+The O count is 1
+The P count is 1
+The R count is 1
+The S count is 1
+The T count is 2

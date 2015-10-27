@@ -1,0 +1,85 @@
+    5
++  12
+------
+    ?
+
+Input your answer: 17
+Correct!
+
+   29
+-  18
+------
+    ?
+
+Input your answer: 11
+Correct!
+
+   15
+x   5
+------
+    ?
+
+Input your answer: 75
+Correct!
+
+  80
+ ---- = ?
+   1
+
+Input your answer: 80
+Correct!
+
+   22
+-  11
+------
+    ?
+
+Input your answer: 11
+Correct!
+
+    3
+x   3
+------
+    ?
+
+Input your answer: 9
+Correct!
+
+   66
++  95
+------
+    ?
+
+Input your answer: 256
+Try again: 24
+Incorrect.
+
+   13
+x   4
+------
+    ?
+
+Input your answer: 53
+Try again: 52
+Correct!
+
+   58
++  23
+------
+    ?
+
+Input your answer: 52
+Try again: 5
+Incorrect.
+
+   19
+x   6
+------
+    ?
+
+Input your answer: 106
+Try again: 531
+Incorrect.
+
+You got 65 out of 100 possible points.
+You got a 65% on this quiz.

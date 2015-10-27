@@ -1,0 +1,27 @@
+Enter a positive integer: 5
+
+The factorial of 5 is 120.
+
+---
+
+Enter a positive integer: 7
+
+The factorial of 7 is 5040.
+
+---
+
+Enter a positive integer: 10
+
+The factorial of 10 is 3628800.
+
+---
+
+Enter a positive integer: 12
+
+The factorial of 12 is 479001600.
+
+---
+
+Enter a positive integer: 6
+
+The factorial of 6 is 720.

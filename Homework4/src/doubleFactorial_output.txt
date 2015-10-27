@@ -1,0 +1,22 @@
+Enter a positive integer: 5
+The double factorial of 5 is 27.
+
+---
+
+Enter a positive integer: 6
+The double factorial of 6 is 64.
+
+---
+
+Enter a positive integer: 7
+The double factorial of 7 is 625.
+
+---
+
+Enter a positive integer: 8
+The double factorial of 8 is 1296.
+
+---
+
+Enter a positive integer: 20
+The double factorial of 20 is 1349403648.

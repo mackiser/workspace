@@ -1,0 +1,57 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class quiz {
+
+	/*-
+	 * Author: Mac Kiser
+	 * Date: 10/19/15
+	 * Program: 10 question quiz for elementary school level kids
+	 */
+
+	static Random getInt = new Random();
+
+	public static void getAddition() {
+		int num1 = getInt.nextInt(99);
+		int num2 = getInt.nextInt(99);
+		int key = num1 + num2;
+		
+		System.out.printf("%5d\n", num1);
+		System.out.printf("+%4d\n", num1);
+		System.out.println("______");
+		System.out.printf("%5s", "?");
+	}
+	
+	public static void getSubtraction() {
+		int num1 = getInt.nextInt(99);
+		int num2 = getInt.nextInt(num1);
+		int key = num1 - num2;
+	}
+	
+	public static void getMultiplication() {
+		int num1 = getInt.nextInt(20);
+		int num2 = getInt.nextInt(10);
+		int key = num1 * num2;
+	}
+	
+	public static void getDivision() {
+		int num1 = getInt.nextInt(99);
+		int num2 = getInt.nextInt(10);
+		
+		while (num1 % num2 != 0)
+			num2 = getInt.nextInt(10);
+		
+		int key = num1 / num2;
+	}
+	
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+
+		// get operator for question
+		int operator = getInt.nextInt(4);
+		
+		getAddition();
+
+	}
+
+}

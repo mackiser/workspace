@@ -1,0 +1,72 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class quiz {
+
+	/*-
+	 * Author: Mac Kiser
+	 * Date: 10/19/15
+	 * Program: 10 question quiz for elementary school level kids
+	 */
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+
+		// init question
+		int question = 0;
+
+		// number generator
+		Random getInt = new Random();
+
+		// get operator for question
+		int operator = getInt.nextInt(4);
+
+		// get two random integers
+		int num1 = getInt.nextInt(100);
+		int num2 = getInt.nextInt(10) + 1;
+
+		// ask user for their first name, last name
+		/*System.out.print("Enter your first name: ");
+		String nameFirst = keyboard.nextLine();
+		System.out.print("Enter your last name: ");
+		String nameLast = keyboard.nextLine();
+		*/
+
+		switch (operator) {
+
+		case 0:
+			System.out.print(num1 + " + " + num2 + " = ");
+			question = num1 + num2;
+			break;
+
+		case 1:
+			System.out.print(num1 + " - " + num2 + " = ");
+			question = num1 - num2;
+			break;
+
+		case 2:
+			System.out.print(num1 + " * " + num2 + " = ");
+			question = num1 * num2;
+			break;
+
+		case 3:
+			while (num1 % num2 != 0) {
+				num2 = getInt.nextInt(10);
+			}
+			System.out.print(num1 + " / " + num2 + " = ");
+			question = num1 / num2;
+			break;
+		}
+		
+		int answer = keyboard.nextInt();
+		
+		if (answer == question) {
+			System.out.print("Correct!");
+		}
+		else {
+			System.out.print("Incorrect. Try again.");
+		}
+
+	}
+
+}
