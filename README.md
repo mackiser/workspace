@@ -9,7 +9,6 @@ None of this code is licensed so you can use all of it or parts of it however yo
 ### Contact
 If you would like to ask any questions or just wanna talk you can contact me here:
 
-<a href="http://twitter.com/grrmln"><img src="images/twitter-share-btn.png" width="30px" /></a>
-<a href="http://github.com/grrmln"><img src="images/github-share-btn.png" width="30px" /></a>
+<a href="http://github.com/mackiser"><img src="images/github-share-btn.png" width="30px" /></a>
 
 [mackiser@protonmail.ch](mailto:mackiser@protonmail.ch)
